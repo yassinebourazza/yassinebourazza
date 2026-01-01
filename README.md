@@ -25,12 +25,12 @@
 
 <h3>Currently Using:</h3>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,html,css,nodejs,js,sqlite" />
+  <img src="https://skillicons.dev/icons?i=go,html,css,js,sqlite" />
 </a>
 
 <h3>Learning Next:</h3>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,next,spring,rust,java" />
+  <img src="https://skillicons.dev/icons?i=react,next,rust,java" />
 </a>
 
 </div>
