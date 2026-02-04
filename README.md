@@ -21,17 +21,31 @@
 
 <div align="center">
 
-<h2>🛠️ Tech Stack</h2>
+<div id="github-stats"></div>
 
-<h3>Currently Using:</h3>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,html,css,js,sqlite" />
-</a>
+<script>
+async function fetchGitHubStats(username) {
+    const res = await fetch(`https://api.github.com/users/${username}/repos`);
+    const repos = await res.json();
 
-<h3>Learning Next:</h3>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,next,rust,java" />
-</a>
+    let languages = {};
+    repos.forEach(repo => {
+        if (repo.language) {
+            languages[repo.language] = (languages[repo.language] || 0) + 1;
+        }
+    });
+
+    let html = `<h2>${username}'s Top Languages</h2><ul>`;
+    for (let lang in languages) {
+        html += `<li>${lang}: ${languages[lang]}</li>`;
+    }
+    html += '</ul>';
+
+    document.getElementById('github-stats').innerHTML = html;
+}
+
+fetchGitHubStats('yassinebourazza');
+</script>
 
 </div>
 
