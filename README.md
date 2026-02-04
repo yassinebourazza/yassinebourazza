@@ -39,10 +39,10 @@
 
 <div align="center">
 
-<h2>📊 GitHub Stats</h2>
+## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=yassinebourazza&show_icons=true&theme=github_dark" alt="GitHub Stats" /><br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassinebourazza&layout=compact&theme=github_dark" alt="Top Languages" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yassinebourazza&show_icons=true&theme=github_dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yassinebourazza&layout=compact&theme=github_dark)
 
 </div>
 
