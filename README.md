@@ -39,10 +39,17 @@
 
 <div align="center">
 
-## 📊 GitHub Stats
+<h2>📊 GitHub Stats</h2>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yassinebourazza&show_icons=true&theme=github_dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yassinebourazza&layout=compact&theme=github_dark)
+<iframe 
+    src="https://github-readme-stats.vercel.app/api?username=yassinebourazza&show_icons=true&theme=github_dark"
+    style="width: 400px; height: 140px; border:0;">
+</iframe>
+
+<iframe 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassinebourazza&layout=compact&theme=github_dark"
+    style="width: 400px; height: 140px; border:0;">
+</iframe>
 
 </div>
 
