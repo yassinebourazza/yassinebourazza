@@ -23,29 +23,29 @@
 
 <div id="github-stats"></div>
 
-<script>
-async function fetchGitHubStats(username) {
-    const res = await fetch(`https://api.github.com/users/${username}/repos`);
-    const repos = await res.json();
+<!-- Statistics: Commit series -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_commits.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_commits.svg">
+</picture>
 
-    let languages = {};
-    repos.forEach(repo => {
-        if (repo.language) {
-            languages[repo.language] = (languages[repo.language] || 0) + 1;
-        }
-    });
+<!-- Statistics: Programming languages -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_langs.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_langs.svg">
+</picture>
 
-    let html = `<h2>${username}'s Top Languages</h2><ul>`;
-    for (let lang in languages) {
-        html += `<li>${lang}: ${languages[lang]}</li>`;
-    }
-    html += '</ul>';
+<!-- Statistics: General statistics -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_general.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_general.svg">
+</picture>
 
-    document.getElementById('github-stats').innerHTML = html;
-}
-
-fetchGitHubStats('yassinebourazza');
-</script>
+<!-- Statistics: Unique repository visitors -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_visitors.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_visitors.svg">
+</picture>
 
 </div>
 
