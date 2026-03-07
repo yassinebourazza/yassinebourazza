@@ -23,49 +23,20 @@
 
 <div id="github-stats"></div>
 
-<!-- Statistics: Commit series -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_commits.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_commits.svg">
-</picture>
+<h2>🛠️ Tech Stack</h2>
 
-<!-- Statistics: Programming languages -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_langs.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_langs.svg">
-</picture>
-
-<!-- Statistics: General statistics -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_general.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_general.svg">
-</picture>
-
-<!-- Statistics: Unique repository visitors -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_visitors.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/yassinebourazza/yassinebourazza/main/output/stats_visitors.svg">
-</picture>
-
-</div>
-
-<hr/>
-
-<div align="center">
-
-<h2>📊 GitHub Stats</h2>
-
-<iframe 
-    src="https://github-readme-stats.vercel.app/api?username=yassinebourazza&show_icons=true&theme=github_dark"
-    style="width: 400px; height: 140px; border:0;">
-</iframe>
-
-<iframe 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassinebourazza&layout=compact&theme=github_dark"
-    style="width: 400px; height: 140px; border:0;">
-</iframe>
-
-</div>
+<h3>Currently Using:</h3>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,html,css,js,docker,sqlite" />
+  </a>
+</p>
+<h3>Learning Next:</h3>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,next,rust,java" />
+  </a>
+</p>
 
 <hr/>
 
